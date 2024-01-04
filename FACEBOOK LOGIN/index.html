@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook signup</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="maindiv">
+        <h1 id="logo">facebook</h1>
+        <form id="signupval">
+            <div class="signupform">
+                <div class="formheading">
+                    <h2>create a new account</h2>
+                    <p>It's quick and easy</p>
+                </div>
+                <div class="inputfields">
+                    <div class="halfwidth">
+                        <input type="text" placeholder="First Name" name="fname">
+                    </div>
+                    <div class="halfwidth">
+                        <input type="text" placeholder="Sur Name" name="sname">
+                    </div>
+                    <div class="fullwidth">
+                        <input type="number" placeholder="Mobile Number or email address" name="mobile">
+                    </div>
+                    <div class="fullwidth">
+                        <input type="password" placeholder="New password" name="pass">
+                    </div>
+
+                    <label>Date of birth</label>
+                    <div class="dob">
+                        <div class="quad-width">
+                            <select name="date">
+                                <option value="">choose</option>
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                                <option value="5">05</option>
+                                <option value="6">06</option>
+                                <option value="7">07</option>
+                            </select>
+                        </div>
+                        <div class="quad-width">
+                            <select name="month"> 
+                                <option value="">choose</option>
+                                <option value="jan">jan</option>
+                                <option value="feb">feb</option>
+                                <option value="mar">mar</option>
+                                <option value="apr">apr</option>
+                                <option value="may">may</option>
+                            </select>
+                        </div>
+                        <div class="quad-width">
+                            <select name="year">
+                                <option value="">choose</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                            </select>
+                        </div>
+                    </div>
+                    <label>Gender</label>
+                    <div class="dob">
+                        <div class="quad-width">
+                            <div class="radio">
+                                <label class="radio-label">Female</label>
+                                <input type="radio" class="radio-input" name="gender">
+                            </div>
+
+                        </div>
+                        <div class="quad-width">
+                            <div class="radio">
+                                <label class="radio-label">Male</label>
+                                <input type="radio" class="radio-input" name="gender">
+                            </div>
+                        </div>
+                        <div class="quad-width">
+                            <div class="radio">
+                                <label class="radio-label">Custom</label>
+                                <input type="radio" class="radio-input" name="gender">
+                            </div>
+                        </div>
+                    </div>
+                    <small>People who use our service may have uploaded your contact information to Facebook. <a href="https://www.facebook.com">Learn more.</a></small>
+                    <small>By clicking Sign Up, you agree to our <a href=https://www.facebook.com>Terms, Privacy Policy</a> and <a href="https://www.facebook.com">Cookies Policy.</a> You may receive SMS notifications from us and can opt out at any time.</small>
+                    <div class="signupdiv">
+                        <button class="signup-btn">Sign Up</button>
+                    </div>
+                    <div class="account-div">
+                        <a href="https://www.facebook.com">Already have an account?</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>"
+<script src="scriptval.js"></script>
+</html>
